@@ -1,0 +1,41 @@
+Tables
+  - Tables holds the data.
+  - Tables are a collection of related data (columns and rows) held in a 
+  structured format within a database.
+  - Most used data types in MySQL
+    - int      used for numbers.
+    - varchar  1 - 255
+    - date     '1984-12-31'
+
+
+
+  Tweets table
+   username varchar(15)
+   tweet    varchar(140)
+   numbers  int
+
+
+  Exercise: create pastries table with two columns name 50 char, and 
+  quantity int.
+
+  CREATE TABLE pastries 
+  ( 
+    name VARCHAR(50), 
+    quantity VARCHAR(50) 
+  );
+
+
+SHOW WARNING;
+ - Shows warnings if found. For instance a wrong data type inserted in an INSERT
+   statement.
+
+
+NULL and NOT NULL attributes
+ - Indicates wether a column can be left empty (null) or not during a CREATE 
+   TABLE statement.
+ 
+- During an INSERT statement, if we left column without a value (NULL), we will
+  get a warning from MySQL.
+  
+  # SHOW WARNINGS;
+  

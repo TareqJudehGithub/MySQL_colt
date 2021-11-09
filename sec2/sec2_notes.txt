@@ -1,0 +1,13 @@
+Database
+ - A Database is a collection of data.
+ - A structured set of of computerized data with an accessible interface.
+
+Relational Database Management System (RDBMS)
+ MySQL, PostgresSQL, Oracle Database, SQLite are example of popular (RDBMS).
+
+MySQL vs SQL
+
+ - SQL is the language/syntax we used when we 'talk' to the database.
+ - SQL is a way we access and manipulate data.
+ - MySQL (an RDBMS) uses SQL to interact with (or implement) the database.
+ 
