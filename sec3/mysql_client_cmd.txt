@@ -70,3 +70,11 @@ CREATE TABLE cats
   age INT NOT NULL,
   description VARCHAR(100)
 );
+
+CREATE TABLE cats 
+(
+  ID INT NOT NULL AUTO_INCREMENT,
+  Name VARCHAR(50) NOT NULL,
+  Desc VARCHAR(100) DEFAULT 'Some text',
+  PRIMARY KEY (ID)
+);

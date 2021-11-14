@@ -1,0 +1,24 @@
+Default values
+ - Default values are specified when defining a table.
+
+  CREATE TABLE people 
+  (
+    Name    VARCHAR(100) NOT NULL,
+    Age     INT          NOT NULL,
+    Gender  INT DEFAULT 25 
+  );
+
+
+KEY value
+ - Primary Key. Refers to a unique identifier. 
+
+  CREATE TABLE <table_name>
+  (
+    ID INT NOT NULL,
+    Name VARCHAR(50) NOT NULL,
+    PRIMARY KEY(ID)
+  );
+
+  AUTO_INCREMENT.  Used for automatically adding incremented ID values for
+  each new record created.
+

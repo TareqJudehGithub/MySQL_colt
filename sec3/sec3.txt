@@ -24,6 +24,9 @@ Tables
     quantity VARCHAR(50) 
   );
 
+  To modify a column data type:
+    ALTER TABLE table_name MODIFY column_name VARCHAR(255); 
+
 
 SHOW WARNING;
  - Shows warnings if found. For instance a wrong data type inserted in an INSERT
